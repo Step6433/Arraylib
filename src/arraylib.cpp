@@ -55,9 +55,7 @@ int arr_product(const int* a, std::size_t n) {
 double arr_median(const int* a, std::size_t n) {
     std::vector <int> b(a, a + n);
     std::sort(b.begin(), b.end());
-    if (n % 2 == 0) return (b[(n / 2) - 1] + b[n / 2]) / 2.0;
+    if (n % 2 == 0) return arr_average({b[(n / 2) - 1], b[n / 2]}, 2);
     else return b[n / 2];
-
-
 }
 
