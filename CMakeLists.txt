@@ -67,3 +67,7 @@ if (BUILD_TESTING)
         RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}"
     )
 endif()
+
+# Демонстрационная программа (Этап 8)
+add_executable(variant_01 examples/variant_01.cpp)
+target_link_libraries(variant_01 PRIVATE arraylib)

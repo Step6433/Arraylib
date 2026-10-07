@@ -30,6 +30,7 @@
 /Users/stepan/Бауманка/Алгоритмизация и программирование/Лабораторки/Лаба2/arraylib/build/CMakeFiles/ContinuousSubmit.dir
 /Users/stepan/Бауманка/Алгоритмизация и программирование/Лабораторки/Лаба2/arraylib/build/CMakeFiles/test_unit.dir
 /Users/stepan/Бауманка/Алгоритмизация и программирование/Лабораторки/Лаба2/arraylib/build/CMakeFiles/test_integration.dir
+/Users/stepan/Бауманка/Алгоритмизация и программирование/Лабораторки/Лаба2/arraylib/build/CMakeFiles/variant_01.dir
 /Users/stepan/Бауманка/Алгоритмизация и программирование/Лабораторки/Лаба2/arraylib/build/CMakeFiles/test.dir
 /Users/stepan/Бауманка/Алгоритмизация и программирование/Лабораторки/Лаба2/arraylib/build/CMakeFiles/edit_cache.dir
 /Users/stepan/Бауманка/Алгоритмизация и программирование/Лабораторки/Лаба2/arraylib/build/CMakeFiles/rebuild_cache.dir
