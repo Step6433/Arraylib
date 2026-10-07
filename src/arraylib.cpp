@@ -24,7 +24,6 @@ int arr_min(const int* a, std::size_t n) {
 }
 
 double arr_average(const int* a, std::size_t n) {
-    int s = 0;
     return (arr_sum(a, n) * 1.0) / n; 
 }
 
@@ -53,9 +52,13 @@ int arr_product(const int* a, std::size_t n) {
 }
 
 double arr_median(const int* a, std::size_t n) {
-    std::vector <int> b(a, a + n);
+    std::vector<int> b(a, a + n);
     std::sort(b.begin(), b.end());
-    if (n % 2 == 0) return arr_average({b[(n / 2) - 1], b[n / 2]}, 2);
-    else return b[n / 2];
+    if (n % 2 == 0) {
+        int mid[2] = { b[(n / 2) - 1], b[n / 2] };
+        return arr_average(mid, 2);
+    } else {
+        return b[n / 2];
+    }
 }
 
