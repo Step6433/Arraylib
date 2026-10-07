@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/variant_01.dir/examples/variant_01.cpp.o -o variant_01  -Wl,-rpath,"/Users/stepan/Бауманка/Алгоритмизация и программирование/Лабораторки/Лаба2/arraylib/build" libarraylib.dylib

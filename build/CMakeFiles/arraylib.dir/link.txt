@@ -1,1 +1,0 @@
-/usr/bin/c++ -dynamiclib -Wl,-headerpad_max_install_names -o libarraylib.dylib -install_name @rpath/libarraylib.dylib CMakeFiles/arraylib.dir/src/arraylib.cpp.o
